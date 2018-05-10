@@ -1,0 +1,118 @@
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:11:18: object MCParser is not a member of package mc.parser[0m
+[0m[[0m[31merror[0m] [0m[0mimport mc.parser.MCParser._[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:18:29: not found: type MCBaseVisitor[0m
+[0m[[0m[31merror[0m] [0m[0mclass ASTGeneration extends MCBaseVisitor[Any] {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:27:34: not found: type ProgramContext[0m
+[0m[[0m[31merror[0m] [0m[0m 	override def visitProgram(ctx: ProgramContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m 	                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:36:37: not found: type DeclarationContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitDeclaration(ctx: DeclarationContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:40:39: not found: type Variable_declContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitVariable_decl(ctx: Variable_declContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:48:39: not found: type Many_variableContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitMany_variable(ctx: Many_variableContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:53:34: not found: type VariableContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitVariable(ctx: VariableContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:58:42: not found: type Array_point_typeContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitArray_point_type(ctx: Array_point_typeContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:62:42: not found: type Element_of_arrayContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitElement_of_array(ctx: Element_of_arrayContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:73:41: not found: type Input_parameterContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitInput_parameter(ctx: Input_parameterContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:77:42: not found: type Output_parameterContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitOutput_parameter(ctx: Output_parameterContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:81:36: not found: type Array_typeContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitArray_type(ctx: Array_typeContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:87:39: not found: type Function_declContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitFunction_decl(ctx: Function_declContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:98:40: not found: type Parameter_listContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitParameter_list(ctx: Parameter_listContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:103:40: not found: type Parameter_declContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitParameter_decl(ctx: Parameter_declContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:111:32: not found: type TypeMCContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitTypeMC(ctx: TypeMCContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:122:35: not found: type StatementContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitStatement(ctx: StatementContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:126:42: not found: type Declaration_partContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitDeclaration_part(ctx: Declaration_partContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:133:40: not found: type Statement_partContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitStatement_part(ctx: Statement_partContext) = ctx.statement().asScala.map(_.accept(this)).toList.asInstanceOf[List[Stmt]][0m
+[0m[[0m[31merror[0m] [0m[0m	                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:144:33: not found: type If_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitIf_stmt(ctx: If_stmtContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:154:36: not found: type Block_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitBlock_stmt(ctx: Block_stmtContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:165:38: not found: type Dowhile_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitDowhile_stmt(ctx: Dowhile_stmtContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:172:34: not found: type For_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitFor_stmt(ctx: For_stmtContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:181:36: not found: type Break_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitBreak_stmt(ctx: Break_stmtContext) = Break[0m
+[0m[[0m[31merror[0m] [0m[0m	                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:184:39: not found: type Continue_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitContinue_stmt(ctx: Continue_stmtContext) = Continue[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:187:37: not found: type Return_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitReturn_stmt(ctx: Return_stmtContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:198:41: not found: type Expression_stmtContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitExpression_stmt(ctx: Expression_stmtContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:202:36: not found: type ExpressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitExpression(ctx: ExpressionContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:221:42: not found: type Assoc_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitAssoc_expression(ctx: Assoc_expressionContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:244:39: not found: type Expression_SBContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitExpression_SB(ctx: Expression_SBContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:267:47: not found: type Relational_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitRelational_expression(ctx: Relational_expressionContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:290:45: not found: type Equality_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitEquality_expression(ctx: Equality_expressionContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:313:42: not found: type Index_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitIndex_expression(ctx: Index_expressionContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:317:47: not found: type Invocation_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitInvocation_expression(ctx: Invocation_expressionContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:321:41: not found: type List_expressionContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitList_expression(ctx: List_expressionContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:325:34: not found: type OperandsContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitOperands(ctx: OperandsContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:330:34: not found: type LiteralsContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitLiterals(ctx: LiteralsContext) = [0m
+[0m[[0m[31merror[0m] [0m[0m	                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:337:39: not found: type Function_callContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitFunction_call(ctx: Function_callContext) = {[0m
+[0m[[0m[31merror[0m] [0m[0m	                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/trimo/Dropbox/assignment/initial/src/main/mc/astgen/ASTGeneration.scala:344:40: not found: type Primitive_typeContext[0m
+[0m[[0m[31merror[0m] [0m[0m	override def visitPrimitive_type(ctx: Primitive_typeContext) =[0m
+[0m[[0m[31merror[0m] [0m[0m	                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m39 errors found[0m

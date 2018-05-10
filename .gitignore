@@ -1,0 +1,14 @@
+*.txt
+*.idea
+*.metadata
+*.class
+*.cache
+*.history
+*.html
+*.rss
+*.gif
+*.png
+*.jpg
+*.css
+*.js
+export
